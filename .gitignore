@@ -2,4 +2,5 @@
 /.idea
 /source
 .DS_Store
+package-lock.json
 

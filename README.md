@@ -1,4 +1,4 @@
-# Front packager 2022 (HTML, CSS, JS, GULP, WEBPACK)
+# Tailwind.css 2023 (HTML, CSS, JS, GULP, WEBPACK)
 ### /docs - compiled folder
 ### for start develop :
 1. install the packages: (npm install)
