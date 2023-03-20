@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.header-link{
+  @apply text-gray-500 font-semibold inline-block px-10 my-5 border-b-2 border-transparent hover:text-fuchsia-600 hover:border-fuchsia-600
+}
+
+//знижуєм специфічність класу, додаємо клас у директиву компоненти
+@layer components{
+  .btn{
+    @apply py-1 px-3 border-2 rounded-full border-indigo-600 text-indigo-600 hover:text-white hover:bg-indigo-600
+  }
+}
+
